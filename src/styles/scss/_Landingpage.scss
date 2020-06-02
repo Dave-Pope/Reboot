@@ -1,0 +1,125 @@
+@import './Mixins';
+
+.Landingpage {
+    .carousel {
+        .landing-info {
+            @include transformTL(0, 32%);
+
+            margin-left: 4rem;
+            padding: 0 2rem 0 0;
+            z-index: 1;
+
+            h1 {
+                color: #fff;
+                font-size: 75px;
+                font-weight: lighter;
+                font-family: 'Muli', sans-serif;
+            }
+
+            button {
+                margin-top: 2rem;
+                padding: 10px 20px;
+                color: #000;
+                border: none;
+                font-size: 12px;
+                font-family: 'Open Sans', sans-serif;
+                letter-spacing: 0.05rem;
+                background: #fff;
+            }
+
+            @media screen and (max-width: 1000px) {
+                margin-left: 1rem;
+
+                h1 {
+                    font-size: 56px;
+                }
+            }
+        }
+
+        .background {
+            width: 100%;
+            height: 100vh;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+
+                filter: brightness(70%);
+            }
+        }
+
+        .carousel-indicators {
+            @include flexContent(left, row);
+
+            position: absolute;
+            padding: 0;
+            margin: 1rem;
+            bottom: 10%;
+            width: 15%;
+
+            @media screen and (min-width: 1000px) {
+                margin-left: 4rem;
+            }
+
+            @media screen and (max-width: 500px) {
+                margin-left: 1rem;
+            }
+
+            li {
+                width: 1rem;
+                height: 1rem;
+                border-radius: 50%;
+                display: block;
+            }
+
+            .active {
+                width: 1.2rem;
+                height: 1.2rem;
+            }
+        }
+
+        .carousel-control-next,
+        .carousel-control-prev {
+            position: absolute;
+            top: 81%;
+            width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+            background: #fff;
+            opacity: 1;
+        }
+
+        .carousel-control-next-icon,
+        .carousel-control-prev-icon {
+            display: block;
+            width: 12px;
+
+            filter: brightness(0);
+        }
+
+        .carousel-control-next {
+            margin-right: 2rem;
+        }
+
+        .carousel-control-prev {
+            left: 80%;
+
+            @media screen and (min-width: 1600px) {
+                left: 90%;
+            }
+
+            @media screen and (min-width: 1200px) {
+                lefT: 85%;
+            }
+
+            @media screen and (max-width: 800px) {
+                left: 75%;
+            }
+
+            @media screen and (max-width: 500px) {
+                left: 55%; 
+            }
+        }
+    }
+}

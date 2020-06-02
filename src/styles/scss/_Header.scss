@@ -1,0 +1,65 @@
+@import './Mixins';
+
+.Header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+    .navbar {
+        margin: 0;
+        padding: 0rem 4rem;
+        width: 100%;
+
+        @media screen and (max-width: 1000px) {
+            padding: 1rem;
+            background: rgba(17, 17, 17, 0.95);
+        }
+
+        .navbar-brand {
+            @include transformTL(50%, 50%);
+            transform: translate(-50%, -50%);
+
+            font-size: 24px;
+            font-family: 'Muli-Light', sans-serif;
+            text-transform: uppercase;
+
+            @media screen and (max-width: 1000px) {
+                position: initial;
+                transform: none;
+            }
+        }
+
+        .navbar-toggler {
+            border: none;
+        }
+
+        .navbar-collapse {
+            @media screen and (min-width: 1000px) {
+                @include flexContent(space-between, row);
+                width: 100%;
+            }
+
+            .navbar-nav {
+                .nav-link {
+                    color: rgba(255, 255, 255, 0.6);
+                    font-family: 'Open Sans', sans-serif;
+                    transition: 0.1s ease-in-out;
+
+                    &:hover {
+                        color: #fff;
+                    }
+
+                    a {
+                        color: rgba(255, 255, 255, 0.6);
+                        text-decoration: none;
+                        transition: 0.1s ease-in-out;
+
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
