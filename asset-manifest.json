@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/Reboots/static/css/main.5f361e03.chunk.css",
-    "main.js": "/Reboots/static/js/main.576f823f.chunk.js",
-    "main.js.map": "/Reboots/static/js/main.576f823f.chunk.js.map",
+    "main.css": "/Reboots/static/css/main.3112bbcf.chunk.css",
+    "main.js": "/Reboots/static/js/main.fc212559.chunk.js",
+    "main.js.map": "/Reboots/static/js/main.fc212559.chunk.js.map",
     "runtime-main.js": "/Reboots/static/js/runtime-main.612f2b2f.js",
     "runtime-main.js.map": "/Reboots/static/js/runtime-main.612f2b2f.js.map",
-    "static/js/2.9da00977.chunk.js": "/Reboots/static/js/2.9da00977.chunk.js",
-    "static/js/2.9da00977.chunk.js.map": "/Reboots/static/js/2.9da00977.chunk.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/Reboots/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.aeb92ec9.chunk.js": "/Reboots/static/js/2.aeb92ec9.chunk.js",
+    "static/js/2.aeb92ec9.chunk.js.map": "/Reboots/static/js/2.aeb92ec9.chunk.js.map",
     "index.html": "/Reboots/index.html",
-    "precache-manifest.3716f9714d18e36e722f656dfd6fe871.js": "/Reboots/precache-manifest.3716f9714d18e36e722f656dfd6fe871.js",
+    "precache-manifest.216c965db10718e676d5cc135ecad00d.js": "/Reboots/precache-manifest.216c965db10718e676d5cc135ecad00d.js",
     "service-worker.js": "/Reboots/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/Reboots/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.9da00977.chunk.js.LICENSE.txt": "/Reboots/static/js/2.9da00977.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/Reboots/static/media/logo.5d5d9eef.svg"
+    "static/css/2.af3c1da9.chunk.css.map": "/Reboots/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.3112bbcf.chunk.css.map": "/Reboots/static/css/main.3112bbcf.chunk.css.map",
+    "static/js/2.aeb92ec9.chunk.js.LICENSE.txt": "/Reboots/static/js/2.aeb92ec9.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Reboots/static/media/Muli-Regular.328d5579.ttf",
+    "static/media/banner1.jpg": "/Reboots/static/media/banner1.0500de65.jpg",
+    "static/media/banner2.jpg": "/Reboots/static/media/banner2.138ec256.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.612f2b2f.js",
-    "static/js/2.9da00977.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.576f823f.chunk.js"
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.aeb92ec9.chunk.js",
+    "static/css/main.3112bbcf.chunk.css",
+    "static/js/main.fc212559.chunk.js"
   ]
 }
