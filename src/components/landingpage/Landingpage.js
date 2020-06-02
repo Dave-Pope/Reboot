@@ -23,9 +23,7 @@ const Landingpage = () => {
 
                 <Carousel.Item>
                     <div className='landing-info'>
-                        <h1>
-                            Fashion Week <br /> Lookbook '19
-                        </h1>
+                        <h1>Brand New Footwear</h1>
 
                         <button>SHOP NOW</button>
                     </div>
