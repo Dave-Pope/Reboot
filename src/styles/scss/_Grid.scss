@@ -1,0 +1,43 @@
+@import './Mixins';
+
+.Grid {
+    height: 200vh;
+    margin: 2rem 4rem;
+
+    @media screen and (max-width: 1000px) {
+        margin: 2rem 1rem;
+    }
+
+    .container {
+        margin: auto;
+
+        .grid-header {
+            @include flexContent(space-between, row);
+            margin-bottom: 1.5rem;
+
+            h2 {
+                font-weight: normal;
+            }
+
+            @media screen and (max-width: 500px) {
+                @include flexContent(center, column);
+            }
+
+            .grid-tabs {
+                @include flexContent(space-between, row);
+
+                span {
+                    border-bottom: 1px solid #000;
+                }
+            }
+        }
+
+        .col-sm-4 {
+            padding: 1rem;
+
+            @media screen and (max-width: 500px) {
+                padding: 0.4rem;
+            }
+        }
+    }
+}

@@ -8,6 +8,18 @@
     src: url('./styles/fonts/Muli-Light.ttf');
 }
 
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(35, 35, 35);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, .6);
+}
+
 * {
     margin: 0;
     padding: 0;

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Carousel from 'react-bootstrap/Carousel';
+import Grid from '../grid/Grid';
 
 const Landingpage = () => {
     return (
@@ -34,6 +35,8 @@ const Landingpage = () => {
                     </div>
                 </Carousel.Item>
             </Carousel>
+
+            <Grid />
         </div>
     );
 };
