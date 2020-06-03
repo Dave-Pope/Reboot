@@ -344,4 +344,21 @@
     height: 200px;
   }
 }
+
+.ProductPreview .card .card-body .prod-details {
+  margin-top: 1rem;
+}
+
+.ProductPreview .card .card-body .prod-details .name {
+  color: #555;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 0.5rem;
+}
+
+.ProductPreview .card .card-body .prod-details .price {
+  font-size: 14px;
+  font-family: 'Muli', sans-serif;
+  line-height: 0.5rem;
+}
 /*# sourceMappingURL=App.css.map */

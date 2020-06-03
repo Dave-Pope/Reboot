@@ -6,11 +6,11 @@ const ProductPreview = props => {
         <div className='ProductPreview'>
             <Card>
                 <Card.Body>
-                    <img src={props.image} />
+                    <img src={props.image} aly="" />
 
                     <div className='prod-details'>
-                        <p>{props.name}</p>
-                        <p>${props.price}</p>
+                        <p className='name'>{props.name}</p>
+                        <p className='price'>${props.price}</p>
                     </div>
                 </Card.Body>
             </Card>
